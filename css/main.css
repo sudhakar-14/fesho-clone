@@ -1,0 +1,788 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Poppins, sans-serif
+}
+
+.row {
+    justify-content: center !important;
+}
+/* ................................ top header section................................ */
+
+.address-section-container {
+    background-color: #43aa5c;
+    justify-content: space-between;
+    height: 40px;
+    font-size: 14px;
+}
+.address i,
+.email i,
+.pnumber i {
+    color: #f8ca38;
+}
+.email a{
+    text-decoration: none;
+    color: white;
+}
+
+.address span,
+.pnumber span {
+    color: white;
+}
+
+.social-icons i{
+    padding-right: 15px;
+    color: white;
+}
+
+.address-section,
+.social-icons {
+    align-items: center;
+}
+
+/* .................................... header section ............................................ */
+
+
+.dropdown li {
+    position: relative;
+}
+
+.dropdown-menu .submenu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-menu>li:hover>.submenu {
+    display: block;
+    left: 100%;
+    top: -7px;
+}
+
+.nav-outer-icons li{
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.nav-outer-icons .btn{
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.collapse .dropdown:nth-child(even) {
+    padding: 0 25px;
+}
+
+.nav-outer-icons {
+    display: flex;
+    align-items: center !important;
+}
+
+.navbar-nav .nav-link{
+    font-weight: 600;
+}
+
+/*................................... body section ....................................... */
+
+.body {
+    overflow: hidden;
+}
+
+.left-para {
+    translate: 18% 9rem;
+    font-size: 21px;
+}
+
+.left-para span{
+    color: #43aa5c;
+}
+
+.left-title {
+    translate: 18% 10rem;
+}
+
+.left-title h1 {
+    color: darkgreen;
+    font-weight: 700;
+}
+
+.left-button {
+    translate: 18% 11rem;
+}
+
+.left-button a{
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.right-side {
+    background-image: url("../../assets/images/image-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 75vh;
+    background-size: contain; 
+    translate: 22% -23%;
+}
+
+/* ............................... banner-section ..................................... */
+
+.banner {
+    width: 100%;
+    padding: 4px;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.banner-btn {
+    background-color: white;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.banner-btn:hover {
+    background-color: #43aa5c;
+    color: white;
+}
+
+.banner-1 h2,
+.banner-2 h2,
+.banner-3 h2 {
+    font-weight: 600;
+}
+
+.banner-1 {
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    background-color: #ffc107;
+    box-shadow: 0 8px 8px -4px #ffc107;
+}
+
+.banner-2 {
+    border-radius: 2px;
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    background-color: #198754;
+    box-shadow: 0 8px 8px -4px #198754;
+}
+
+.banner-3 {
+    border-radius: 2px;
+    position: relative;
+    width: 100%;
+    max-width: 440px;
+    background-color: #dc3545;
+    box-shadow: 0 8px 8px -4px #dc3545;
+}
+
+.banner-left {
+    padding-top: 50px;
+    padding-bottom: 27px;
+}
+
+.banner-1 .banner-right{
+    background-image: url(../../assets/images/banner-pic1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 150px;
+    height: 41vh;
+    top: 38px;
+    right: 15px;
+}
+.banner-2 .banner-right{
+    background-image: url(../../assets/images/banner-pic2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 160px;
+    height: 41vh;
+    top: 45px;
+    right: -15px;
+}
+.banner-3 .banner-right{
+    background-image: url(../../assets/images/banner-pic3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 155px;
+    height: 41vh;
+    top: 44px;
+    right: 6px;
+}
+
+/* .............................. about-section.................................. */
+
+.details-container {
+    padding: 0 10%;
+    padding-bottom: 3%;
+
+}
+.img-div img{
+    border-radius: 50%;
+}
+
+.top-details span{
+    color: #43aa5c;
+}
+
+.top-left-header,
+.top-right-header{
+    font-weight: 600;
+}
+
+.details-div{
+    padding-top: 10%;
+}
+
+.details-btn a{
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+/* .................................. deals section ................................. */
+
+.deal-section {
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.left-deal {
+    padding-top: 6%;
+    /* padding-left: 110px; */
+}
+
+.left-deal .text-success {
+    font-size: 26px;
+}
+
+.left-deal h1 {
+    font-weight: 600;
+    font-size: 52px;
+}
+
+.left-deal .text-muted {
+    font-size: 20px;
+}
+
+.right-deal img{
+    height: 70vh;
+}
+
+.bottom-left-deal div {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+/* ..................................... shop section ............................... */
+
+.shop-item-con {
+    overflow: hidden;
+    padding: 5% 10%;
+}
+.shop-title span {
+    font-size: 20px;
+}
+
+.shop-subtitle h1 {
+    font-weight: 600;
+    color: #be06a8;
+}
+
+.shop-item{
+    width: 100%;
+    max-width: 270px;
+    border: 1px solid;
+    padding: 1% 0;
+}
+
+.shop-item .item-name {
+    font-weight: 700;
+    font-size: 23px;
+    padding-bottom: 0px;
+}
+
+.shop-item .item-price{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 11px;
+    padding-bottom: 11px;
+}
+
+.shop-item .item-rating{
+    padding-bottom: 15px;
+}
+
+.shop-item:hover {
+    box-shadow: 20px 20px 30px rgb(0 0 0 / 10%);
+    cursor: pointer;
+    border: 3px solid greenyellow; 
+    transition: 0.1s;
+}
+
+/* ................................ offer section ................................. */
+
+.offer-con {
+    overflow: hidden;
+    padding: 0 10%;
+}
+
+.offer-title span{
+    color: #dc3545;
+    font-size: 20px;
+}
+
+.offer-subtitle h1{
+    font-weight: 600;
+    color: #43aa5c;
+    font-size: 48px;
+}
+
+.offer-item1 {
+    background-color: #f7f5ee;
+    border: 1px solid rgb(8, 245, 205);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 260px;
+    padding: 2% 1%;
+}
+
+.offer-item1 img {
+    border-radius: 50%;
+}
+
+.offer-item1 .item-name {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.offer-item1 .item-des {
+    font-size: 18px;
+}
+
+.offer-item2 {
+    background-color: #f7f5ee;
+    border: 1px solid rgb(246, 254, 6);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 260px;
+    padding: 2% 1%;
+}
+
+.offer-item2 img {
+    border-radius: 50%;
+}
+
+.offer-item2 .item-name {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.offer-item2 .item-des {
+    font-size: 18px;
+}
+
+.offer-item3 {
+    background-color: #f7f5ee;
+    border: 1px solid rgb(53, 252, 17); 
+    border-radius: 5px;
+    width: 100%;
+    max-width: 260px;
+    padding: 2% 1%;
+}
+
+.offer-item3 img {
+    border-radius: 50%;
+}
+
+.offer-item3 .item-name {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.offer-item3 .item-des {
+    font-size: 18px;
+}
+
+.offer-item4 {
+    background-color: #f7f5ee;
+    border: 1px solid rgb(187, 247, 85);
+    border-radius: 5px;
+    width: 100%;
+    max-width: 260px;
+    padding: 2% 1%;
+}
+
+.offer-item4 img {
+    border-radius: 50%;
+}
+
+.offer-item4 .item-name {
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.offer-item4 .item-des {
+    font-size: 18px;
+}
+
+/* ............................. benefit section ................................. */
+
+.benefits-section {
+    background-color: #255041;
+}
+
+.benefits-con {
+    padding: 5% 10%;
+    overflow: hidden;
+}
+
+.benefit-con1 {
+    width: 100%;
+    max-width: 275px;
+}
+
+.benefit-right-top{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.benefit-right-bottom{
+    color: white;
+}
+
+/* .............................. gallery section ................................ */
+
+.gallery-con {
+    padding: 5% 5%;
+    overflow: hidden;
+}
+
+.gallery-con .row{
+    overflow: hidden;
+}
+
+.gallery-title h1{
+    font-weight: 600;
+    color: rgb(73 162 165);
+}
+
+.gallery-item {
+    width: 100%;
+    max-width: 227px;
+    overflow: hidden;
+}
+
+.gallery-item img{
+    width: 100%;
+    height: auto;
+}
+
+/* ................................... footer section ............................................. */
+
+.footer-con {
+    background-color: #255041;
+}
+
+.footer-container {
+    padding: 5% 8%;
+    overflow: hidden;
+}
+
+.footer-con .row {
+    justify-content: space-between !important;
+}
+
+.footer-con1 {
+    width: 100%;
+    max-width: 256px;
+}
+
+.footer-con1-des span {
+    font-size: 16px;
+}
+
+.footer-con1-social-icons .fa-brands{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer-con2 {
+    width: 100%;
+    max-width: 180px;
+}
+
+.footer-con2 h5{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.con2-des{
+    font-size: 16px;
+}
+
+.footer-con3 {
+    width: 100%;
+    max-width: 239px;
+}
+
+.footer-con3-title h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.con3-des-icon {
+    font-size: 20px;
+}
+
+.con3-des-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-con4 {
+    width: 100%;
+    max-width: 240px;
+}
+
+.footer-con4-title h5 {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.con4-input {
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+}
+
+.con4-btn .btn {
+    font-weight: 600;
+    color: #255041;
+    padding: 16px 73px;
+}
+
+.con4-btn .btn:hover {
+    color: #ffc107;
+    background-color: white;
+    border: solid 1px white;
+}
+
+/* .................................. @media ..................................... */
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .details-container {
+        margin: 0;
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    
+    .address-section-container {
+        height: 4px;
+    }
+
+    .address span, 
+    .email span, 
+    .email a, 
+    .pnumber span,
+    .social-icons span {
+        display: none;
+    }
+     .nav-outer-icons {
+        display: none;
+    }
+    .navbar-expand-lg {
+        display: none !important;
+    }
+    .btn-hamburger-menu{
+        font-size: 25px;
+    }
+    .offcanvas-outer-items {
+        font-size: 22px;
+    }
+    .offcanvas-outer-items .list-inline{
+        padding-top: 5px;
+    }
+    .offcanvas-outer-items .list-inline:nth-child(even){
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    hr{
+        margin: 5px 0;
+    }
+    .nav-inner-items i{
+        font-size: 22px;
+        color: #43aa5c;
+    }
+    .offcanvas-body{
+        position: relative;
+        flex-grow: 1;
+        overflow-y: scroll;
+    }
+    .bottom-inner-nav-items{
+        display: flex;
+        position: absolute;
+        margin-top: auto;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 7px;
+        border-top: 1px solid #7b7c7b;
+    }
+    .bottom-inner-nav-items i{
+        padding: 0 !important;
+        font-size: 22px;
+        color: #43aa5c;
+    }
+    .bottom-inner-nav-items div{
+        padding-top: 15px;
+    }
+    .twitter-con,
+    .fb-con,
+    .pinterest-con{
+        border-right: 1px solid;
+    }
+    .twitter-con{
+        padding: 0 30px;
+    }
+    .insta-con{
+        padding-right: 40px;
+    }
+    .fb-con,
+    .pinterest-con{
+        padding-right: 40px;
+    }
+    .left-para {
+        translate: 7% 9rem;
+        font-size: 21px;
+    }
+    .left-title {
+        translate: 7% 10rem;
+    }
+    .left-button {
+        translate: 7% 11rem;
+    }
+    .banner {
+        padding: 0;
+    }
+    .banner-1{
+        max-width: 100%;
+    }
+    .banner-2{
+        max-width: 100%;
+    }
+    .banner-3{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .img-div {
+        position: relative;
+        padding-top: 100%;
+        overflow: hidden;
+    }
+    .img-div img {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 !important;
+    }
+    .right-deal {
+        overflow: hidden;
+    }
+    .right-deal img{
+        width: 100%;
+        height: auto;
+        padding: 0 !important;
+    }
+    
+}
+
+@media only screen and (min-width:993px){
+    .brand-container{
+        display: none!important;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:768px){
+    .right-side{
+        background-image: url("../../assets/images/image-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 125%;
+        height: 75vh;
+        background-size: contain; 
+        translate: 22% -23%;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width:600px){
+    .right-side{
+        background-image: url("../../assets/images/image-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 125%;
+        height: 75vh;
+        background-size: contain; 
+        translate: 22% -23%;
+    }
+    .left-para {
+        translate: 5% 3rem;
+        font-size: 21px;
+    }
+    .left-title {
+        translate: 5% 4rem;
+    }
+    .left-button {
+        translate: 5% 5rem;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .right-side{
+        background-image: url("../../assets/images/image-1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 125%;
+        height: 75vh;
+        background-size: contain; 
+        translate: 22% -23%;
+    }
+    .left-para {
+        translate: 5% 0rem;
+        font-size: 21px;
+    }
+    .left-title {
+        translate: 4% 1rem;
+    }
+    .left-button {
+        translate: 5% 2rem;
+    }
+}
+@media only screen and (max-width:366px){
+    .banner{
+        overflow-x: hidden;
+    }
+    .banner-1 .banner-right{
+        translate: 70px -5px;
+    }
+    .banner-2 .banner-right{
+        translate: 70px -5px;
+    }
+    .banner-3 .banner-right{
+        translate: 70px -5px;
+    }
+    .footer-copyright {
+        font-size: 13px;
+    }
+}

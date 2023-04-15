@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fesho Shop</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="../assets/icons/css/all.min.css" media="all">
+    <link rel="stylesheet" href="../assets/css/main.css" media="all">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" media="all">
+</head>
+<body onload="mydealstimer()">
+    <topheader>
+        <div class="container-fluid d-flex address-section-container">
+            <div class="container d-flex justify-content-between">
+                <div class="d-flex address-section">
+                    <div class="address pe-3">
+                        <span><i class="fa-solid fa-map pe-2"></i></span>
+                        <span>88 broklyn golden street. New York</span>
+                    </div>
+                    <div class="email pe-3">
+                        <span><i class="fa-solid fa-envelope pe-2"></i></span>
+                        <a href="#">needhelp@company.com</a>
+                    </div>
+                    <div class="pnumber pe-3">
+                        <span><i class="fa-solid fa-mobile-button pe-2"></i></span>
+                        <span>+ 1 (307) 776-0608</span>
+                    </div>
+                </div>
+                <div class="d-flex social-icons">
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-square-facebook"></i></span>
+                    <span><i class="fa-brands fa-pinterest"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                </div>
+            </div>
+        </div>
+    </topheader>
+    <!-- ................................ ....... topheader end! .................................... -->
+    <header>
+        <div class="container-fluid pt-3">
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="../assets/images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Home</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">Home Page 01</a></li>
+                                    <li><a href="#" class="dropdown-item">Home Page 02</a></li>
+                                    <li><a href="#" class="dropdown-item">Home Page 03</a></li>
+                                    <li><a href="#" class="dropdown-item dropdown-toggle">Header Styles</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Header Style One</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style Three</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Services</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Service List</a></li>
+                                            <li><a class="dropdown-item" href="#">Service Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Projects</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Project List</a></li>
+                                            <li><a class="dropdown-item" href="#">Project Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Team</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Team List</a></li>
+                                            <li><a class="dropdown-item" href="#">Team Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                                    <li><a class="dropdown-item" href="#">pricing</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Page 404</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Shop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Products</a></li>
+                                    <li><a class="dropdown-item" href="#">Products With Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="#">Products Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Cart</a></li>
+                                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">News</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">News Grid</a></li>
+                                    <li><a class="dropdown-item" href="#">News Details</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- <div class=""> -->
+                        <ul class="navbar-nav nav-outer-icons">
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass pt-2"></i></a></li>
+                            <li><a href="#"><i class="fa-solid fa-cart-shopping pt-2"></i></a></li>
+                            <li><a href="#" class="btn btn-warning">Shop Now</a></li>
+                        </ul>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+                              <!-- Offcanvas Code  -->
+        <innerheader>
+            <div class="offcanvas offcanvas-end offcanvas-expand-lg" id="offcanvas">
+                <div class="offcanvas-header">
+                    <a href="#">
+                        <img src="../assets/images/logo.png" alt="">
+                    </a>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas">
+                    </button>
+                </div>
+                <hr>
+                <div class="offcanvas-body">
+                    <div class="inner-navigation-items">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#">Home</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#" class="dropdown-item">Home Page 01</a></li>
+                                    <li><a href="#" class="dropdown-item">Home Page 02</a></li>
+                                    <li><a href="#" class="dropdown-item">Home Page 03</a></li>
+                                    <li><a href="#" class="dropdown-item dropdown-toggle">Header Styles</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Header Style One</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style Two</a></li>
+                                            <li><a class="dropdown-item" href="#">Header Style Three</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Pages</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Services</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Service List</a></li>
+                                            <li><a class="dropdown-item" href="#">Service Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Projects</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Project List</a></li>
+                                            <li><a class="dropdown-item" href="#">Project Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item dropdown-toggle" href="#">Team</a>
+                                        <ul class="dropdown-menu submenu">
+                                            <li><a class="dropdown-item" href="#">Team List</a></li>
+                                            <li><a class="dropdown-item" href="#">Team Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Testimonial</a></li>
+                                    <li><a class="dropdown-item" href="#">pricing</a></li>
+                                    <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                    <li><a class="dropdown-item" href="#">Page 404</a></li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Shop</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Products</a></li>
+                                    <li><a class="dropdown-item" href="#">Products With Sidebar</a></li>
+                                    <li><a class="dropdown-item" href="#">Products Details</a></li>
+                                    <li><a class="dropdown-item" href="#">Cart</a></li>
+                                    <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">News</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">News Grid</a></li>
+                                    <li><a class="dropdown-item" href="#">News Details</a></li>
+                                </ul>
+                            </li>
+                            <hr>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <hr>
+                        </ul>
+                        <div class="d-flex nav-inner-items py-2">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-square-phone"></i>
+                            </div>
+                            <div>
+                                <span class="fw-bold">Phone</span> <br>
+                                <span class="fw-light">+92 666 888 0000</span>
+                            </div>
+                        </div>
+                        <div class="d-flex nav-inner-items pb-2">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span class="fw-bold">Email</span> <br>
+                                <span class="fw-light"></span>needhelp@company.com
+                            </div>
+                        </div>
+                        <div class="d-flex nav-inner-items">
+                            <div class="pe-3">
+                                <i class="fa-solid fa-location-pin"></i>
+                            </div>
+                            <div>
+                                <span class="fw-bold">Address</span> <br>
+                                <span class="fw-light">66 road, broklyn street new york</span>
+                            </div>
+                        </div>
+                        <div class="bottom-inner-nav-items d-flex justify-content-between">
+                            <div class="twitter-con">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="fb-con">
+                                <i class="fa-brands fa-square-facebook"></i>
+                            </div>
+                            <div class="pinterest-con">
+                                <i class="fa-brands fa-pinterest"></i>
+                            </div>
+                            <div class="insta-con">
+                                <i class="fa-brands fa-instagram"></i>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </innerheader>
+        <div class="brand-container img-fluid d-flex justify-content-between p-3">
+            <div>
+                <a class="" href="#"><img src="../assets/images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="d-flex offcanvas-outer-items">
+                <li class="list-inline">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass pt-2"></i></a>
+                </li>
+                <li class="list-inline">
+                    <a href="#"><i class="fa-solid fa-cart-shopping pt-2"></i></a>
+                </li>
+                <a href="#offcanvas" class="btn btn-hamburger-menu img-fluid" type="button" data-bs-toggle="offcanvas">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- ......................................... header end! ...................................... -->
+    <section class="body-section">
+        <div class="body">
+            <div class="left-side">
+                <div class="left-para">
+                    <span>Only Organic Products</span>
+                </div>
+                <div class="left-title">
+                    <h1>Healthy Organic Food</h1>
+                </div>
+                <div class="left-button">
+                    <a href="#" class="btn btn-warning">Discover More</a>
+                </div>
+            </div>
+            <div class="right-side">
+            </div>
+        </div>
+    </section>
+    <!-- ....................................... body section end! .................................. -->
+    <div class="banner container">
+        <div class="row mt-3 justify-content-center">
+            <div class="banner-1 col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="banner-left ps-4 bg-warning">           
+                    <span class="text-white">100% Organic</span>
+                    <h2 class="py-1 text-white">Quality Organic <br> Food Store</h2>
+                    <a href="#" class="btn banner-btn">Shop Now</a>
+                </div>
+                <div class="banner-right img-fluid">
+                </div>
+            </div>
+            <div class="banner-2 col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="banner-left ps-4 bg-success">           
+                    <span class="text-white">100% Organic</span>
+                    <h2 class="py-1 text-white">Quality Organic <br> Food Store</h2>
+                    <a href="#" class="btn banner-btn">Shop Now</a>
+                </div>
+                <div class="banner-right">
+                </div>
+            </div>
+            <div class="banner-3 col-lg-4 col-md-6 col-sm-12 mt-3">
+                <div class="banner-left ps-4 bg-danger">           
+                    <span class="text-white">100% Organic</span>
+                    <h2 class="py-1 text-white">Quality Organic <br> Food Store</h2>
+                    <a href="#" class="btn banner-btn">Shop Now</a>
+                </div>
+                <div class="banner-right">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................................... banner section end! ................................. -->
+    <div class="details-container container-fluid">
+        <div class="row justify-content-center">
+            <div class="img-div pe-3 col-lg-6 col-md-12">
+                <img src="../assets/images/about-img-1.jpg" alt="">
+            </div>
+            <div class="details-div col-lg-6 col-md-12">
+                <div class="top-details">
+                    <span class="d-flex justify-content-center">
+                        Welcome to Fesho
+                    </span>
+                    <h1 class="text-bold pt-3">
+                        Be healthy & eat only pure organic food
+                    </h1>
+                    <span class="text-muted pt-3">
+                        Lorem ipsum is simply free text available dolor sit amet, consectetur notted adipisicing elit sed do eiusmod tempor incididunt simply free ut labore et dolore magna aliqua.
+                    </span>
+                </div>
+                <div class="bottom-details d-flex justify-content-between pt-5">
+                    <div left-details>
+                        <div top-left-details>
+                            <span><i class="fa-solid fa-circle-check text-warning"></i></span>
+                            <span class="top-left-header">The Best Farmers</span>
+                        </div>
+                        <div class="bottom-left-details">
+                            <span class="text-muted">Lorem ipsum dolor sited amet consectetur notted.</span>
+                        </div>
+                    </div>
+                    <div right-details>
+                        <div class="top-right-details">
+                            <span><i class="fa-solid fa-circle-check text-warning"></i></span>
+                            <span class="top-right-header">The Best Farmers</span>
+                        </div>
+                        <div class="bottom-right-details">
+                            <span class="text-muted">
+                                Lorem ipsum dolor sited amet consectetur notted.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="details-btn d-flex justify-content-center pt-5">
+                    <a href="#" class="btn btn-warning">Discover More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................................... details section end! ................................ -->
+    <div class="deal-section pb-5 d-flex justify-content-lg-end">
+        <div class="row justify-content-center">
+            <div class="left-deal col-lg-6 col-sm-12">
+                <div class="top-left-deal">
+                    <span class="text-success">
+                        Weekly Offers
+                    </span>
+                    <h1 class="pt-3 text-danger">
+                        Check Deal Of the Day
+                    </h1>
+                    <span class="text-muted pt-3">
+                        Lorem ipsum dolor sit amet nsectetur cing elit. Suspe ndisse suscipit sagittis leo sit met entum estibu dignissim.
+                    </span>
+                </div>
+                <div class="bottom-left-deal d-flex justify-content-around pt-5">
+                    <div id="days-con" class="text-danger">00</div>
+                    <div id="hours-con" class="text-info">00</div>
+                    <div id="minutes-con" class="text-warning">00</div>
+                    <div id="seconds-con" class="text-primary">00</div>
+                </div>
+            </div>
+            <div class="right-deal col-lg-6 col-sm-12 d-flex justify-content-center">
+                <img class="img-fluid" src="../assets/images/orangepic.webp" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- ...................................... . deal section end! .................................. -->
+    <div class="shop-item-con">
+        <div class="shop-title d-flex justify-content-center">
+            <span class="text-success">Special Offers</span>
+        </div>
+        <div class="shop-subtitle d-flex justify-content-md-center justify-content-lg-space-between">
+            <h1>Check today's hot deal products</h1>
+        </div>            
+        <div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center pt-5">
+            <div class="shop-item col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                <div class="item-img d-flex justify-content-center">
+                    <img class="img-fluid" src="../assets/images/grocery1.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center">
+                    Bananas
+                </div>
+                <div class="item-price d-flex justify-content-center">
+                    ₹49
+                </div>
+                <div class="item-rating d-flex justify-content-center">
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                </div>
+            </div>
+            <div class="shop-item col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                <div class="item-img d-flex justify-content-center">
+                    <img class="img-fluid" src="../assets/images/grocery2.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center">
+                    Potatoes
+                </div>
+                <div class="item-price d-flex justify-content-center">
+                    ₹69
+                </div>
+                <div class="item-rating d-flex justify-content-center">
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                </div>
+            </div>
+            <div class="shop-item col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                <div class="item-img d-flex justify-content-center">
+                    <img class="img-fluid" src="../assets/images/grocery3.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center">
+                    Apples
+                </div>
+                <div class="item-price d-flex justify-content-center">
+                    ₹89
+                </div>
+                <div class="item-rating d-flex justify-content-center">
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                </div>
+            </div>
+            <div class="shop-item col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                <div class="item-img d-flex justify-content-center">
+                    <img class="img-fluid" src="../assets/images/grocery4.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center">
+                    Lettuce
+                </div>
+                <div class="item-price d-flex justify-content-center">
+                    ₹59
+                </div>
+                <div class="item-rating d-flex justify-content-center">
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                    <i class="fa-solid fa-star fa-lg text-warning"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..................................... shop-item section end! ................................ -->
+    <div class="offer-con">
+        <div class="offer-title d-flex justify-content-center pb-2">
+            <span>Our Categories</span>
+        </div>
+        <div class="offer-subtitle d-flex justify-content-center pb-3">
+            <h1>What We're Offering!</h1>
+        </div>
+        <div class="row justify-content-lg-around justify-content-md-center justify-content-sm-center">
+            <div class="offer-item1 col-lg-3 col-md-6 col-sm-12 me-md-3 mb-3">
+                <div class="item-img d-flex justify-content-center pb-4">
+                    <img class="img-fluid" src="../assets/images/carrot1.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center pb-2">
+                    Vegetables
+                </div>
+                <div class="item-des text-muted d-flex justify-content-center pb-2">
+                    When nothing prevents our to we like best be.
+                </div>
+            </div>
+            <div class="offer-item2 col-lg-3 col-md-6 col-sm-12 me-md-3 mb-3">
+                <div class="item-img d-flex justify-content-center pb-4">
+                    <img class="img-fluid" src="../assets/images/strawberry2.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center pb-2">
+                    Fresh Fruits
+                </div>
+                <div class="item-des text-muted d-flex justify-content-center pb-2">
+                    When nothing prevents our to we like best be.
+                </div>
+            </div>
+            <div class="offer-item3 col-lg-3 col-md-6 col-sm-12 me-md-3 mb-3">
+                <div class="item-img d-flex justify-content-center pb-4">
+                    <img class="img-fluid" src="../assets/images/masala3.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center pb-2">
+                    Spices
+                </div>
+                <div class="item-des text-muted d-flex justify-content-center pb-2">
+                    When nothing prevents our to we like best be.
+                </div>
+            </div>
+            <div class="offer-item4 col-lg-3 col-md-6 col-sm-12 me-md-3 mb-3">
+                <div class="item-img d-flex justify-content-center pb-4">
+                    <img class="img-fluid" src="../assets/images/peanuts4.jpg" alt="">
+                </div>
+                <div class="item-name d-flex justify-content-center pb-2">
+                    Dried Products
+                </div>
+                <div class="item-des text-muted d-flex justify-content-center pb-2">
+                    When nothing prevents our to we like best be.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................................... offer section end! .................................. -->
+    <div class="benefits-section mt-5">
+        <div class="benefits-con">
+            <div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center">
+                <div class="benefit-con1 d-flex align-items-center justify-content-between col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                    <div class="benefit-left">
+                        <span>
+                            <i class="fa-solid fa-sack-dollar fa-3x text-warning"></i>
+                        </span>
+                    </div>
+                    <div class="benefit-right">
+                        <div class="benefit-right-top">
+                            Return Policy
+                        </div>
+                        <div class="benefit-right-bottom">
+                            Money Back Guarantee
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-con1 d-flex align-items-center justify-content-between col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                    <div class="benefit-left">
+                        <span>
+                            <i class="fa-solid fa-ship fa-3x text-warning"></i>
+                        </span>
+                    </div>
+                    <div class="benefit-right">
+                        <div class="benefit-right-top">
+                            Free Shipping
+                        </div>
+                        <div class="benefit-right-bottom">
+                            On All Orders Over ₹5000
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-con1 d-flex align-items-center justify-content-between col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                    <div class="benefit-left">
+                        <span>
+                            <i class="fa-solid fa-store fa-3x text-warning"></i>
+                        </span>
+                    </div>
+                    <div class="benefit-right">
+                        <div class="benefit-right-top">
+                            Store Locator
+                        </div>
+                        <div class="benefit-right-bottom">
+                            Find Your Nearest Store
+                        </div>
+                    </div>
+                </div>
+                <div class="benefit-con1 d-flex align-items-center justify-content-between col-lg-3 col-md-6 col-sm-12 mb-3 me-md-3 me-sm-3">
+                    <div class="benefit-left">
+                        <span>
+                            <i class="fa-solid fa-shield-cat fa-3x text-warning"></i>
+                        </span>
+                    </div>
+                    <div class="benefit-right">
+                        <div class="benefit-right-top">
+                            Secure Payments
+                        </div>
+                        <div class="benefit-right-bottom">
+                            You're On Safe and Secure
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................................... benefits section end! ................................ -->
+    <div class="gallery-con">
+        <div class="gallery-title d-flex justify-content-center pb-3">
+            <h1>Fresh Nutrients</h1>
+        </div>
+        <div class="row justify-content-lg-between justify-content-md-center justify-content-sm-center justify-content-xs-evenly">
+            <div class="gallery-item col-lg-2 col-md-3 col-sm-6 col-xs-6 mb-md-3 mb-sm-3 mb-3">
+                <img class="img-fluid" src="../assets/images/gallery-1.jpg" alt="">
+            </div>
+            <div class="gallery-item col-lg-2 col-md-3 col-sm-2 col-xs-6 mb-md-3 mb-sm-3 mb-3">
+                <img class="img-fluid" src="../assets/images/gallery-2.jpg" alt="">
+            </div>
+            <div class="gallery-item col-lg-2 col-md-3 col-sm-2 col-xs-6 mb-md-3 mb-sm-3 mb-3">
+                <img class="img-fluid" src="../assets/images/gallery-3.jpg" alt="">
+            </div>
+            <div class="gallery-item col-lg-2 col-md-3 col-sm-2 col-xs-6 mb-md-3 mb-sm-3 mb-3">
+                <img class="img-fluid" src="../assets/images/gallery-4.jpg" alt="">
+            </div>
+            <div class="gallery-item col-lg-2 col-md-3 col-sm-2 col-xs-6 mb-md-3 mb-sm-3 mb-3">
+                <img class="img-fluid" src="../assets/images/gallery-5.jpg" alt="">
+            </div>
+            <div class="gallery-item col-lg-2 col-md-3 col-sm-2 col-xs-6 mb-md-3 mb-sm-3 mb-3">
+                <img class="img-fluid" src="../assets/images/gallery-6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- ......................................  gallery section end! ................................. -->
+    <div class="footer-con">
+        <div class="footer-container">
+            <div class="row justify-content-xs-center">
+                <div class="footer-con1 mb-4 col-lg-3 col-md-6">
+                    <div class="footer-con1-title pb-3">
+                        <img src="../assets/images/logo-2.png" alt="">
+                    </div>
+                    <div class="footer-con1-des pb-3">
+                        <span class="text-white">
+                            We're providing every day fresh and quality products for you
+                        </span>
+                    </div>
+                    <div class="list-inline d-flex footer-con1-social-icons">
+                        <li>
+                            <i class="fa-brands fa-twitter text-white"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-square-facebook text-white"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-pinterest text-white"></i>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-instagram text-white"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="footer-con2 mb-4 col-lg-3 col-md-6">
+                    <div>
+                        <h5 class="text-white">Explore</h5>
+                    </div>
+                    <div class="list-inline">
+                        <li class="text-white pb-1 con2-des">About company</li>
+                        <li class="text-white pb-1 con2-des">Our services</li>
+                        <li class="text-white pb-1 con2-des">Become a seller</li>
+                        <li class="text-white pb-1 con2-des">New products</li>
+                        <li class="text-white pb-1 con2-des">Contact</li>
+                    </div>
+                </div>
+                <div class="footer-con3 mb-4 col-lg-3 col-md-6">
+                    <div class="footer-con3-title">
+                        <h5 class="text-white pb-2">Contact</h5>
+                    </div>
+                    <div class="footer-con3-des">
+                        <div class="d-flex pb-1">
+                            <div class="pe-2">
+                                <i class="fa-solid fa-square-phone text-warning con3-des-icon"></i>
+                            </div>
+                            <div>
+                                <span class="text-white con3-des-title">Phone</span><br>
+                                <span class="text-white con3-des-detail">+92 666 888 0000</span>
+                            </div>
+                        </div>
+                        <div class="d-flex pb-1">
+                            <div class="pe-2">
+                                <i class="fa-solid fa-envelope text-warning con3-des-icon"></i>
+                            </div>
+                            <div>
+                                <span class="text-white con3-des-title">Email</span><br>
+                                <span class="text-white con3-des-detail">needhelp@company.com</span>
+                            </div>
+                        </div>
+                        <div class="d-flex pb-1">
+                            <div class="pe-2">
+                                <i class="fa-solid fa-location-pin text-warning con3-des-icon"></i>
+                            </div>
+                            <div>
+                                <span class="text-white con3-des-title">Address</span><br>
+                                <span class="text-white con3-detail">66road, broklyn street new york</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-con4 mb-4 col-lg-3 col-md-6">
+                    <div class="footer-con4-title pb-2">
+                        <h5 class="text-white">Newsletter</h5>
+                    </div>
+                    <div class="pb-2">
+                        <input type="text" class="con4-input text-center px-4 py-3" placeholder="Enter your email">
+                    </div>
+                    <div class="con4-btn">
+                        <a href="#" class="btn btn-warning">SUBSCRIBE</a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="footer-copyright text-white d-flex justify-content-center pt-3">
+                &#169; Copyright 2022 by Company.com
+            </div>
+        </div>
+    </div>
+    <!-- ....................................... footer section end! .................................. -->
+    <script src="../assets/js/jquery-3.6.2.min.js"></script> 
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+</body>
+</html>
